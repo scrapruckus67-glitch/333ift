@@ -22,6 +22,33 @@ header a{
     color: white;
     font-size: 32px;
 }
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:48px;
+    width:80px;
+    background-color: #ff00ff;
+    color: black;
+    font-size: 1.25rem;
+    font-family: "Archivo Black", sans-serif;;
+    border-radius: 5px;
+}
+.btn:hover{
+    height:56px;
+    width:88px;
+    background-color: #00ff41;
+    color: black;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+header a:hover{
+    color: #00ff41;
+    font-size: 32px;
+    transition-duration: 0.5s;
+
+}
 .taskbar{
     display: flex;
     flex-direction: row;
@@ -43,6 +70,7 @@ header a{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    font-family: "Archivo Black", sans-serif;
 }
 .green{
     color: #00ff41;
@@ -55,9 +83,12 @@ header a{
 }
 .vision{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    color:grey
+    color:white;
+    font-size:1rem;
+    font-family: "roboto";
 }
 
 .buttons{
@@ -67,7 +98,7 @@ header a{
     font-size: 2rem;
     gap:1rem
 
-}    
+}
     
 
 .shop{
@@ -79,6 +110,10 @@ header a{
     background-color: #ff00ff;
     color:black
 }
+.shop:hover{
+    background-color: #00ff41;
+    transition-duration: 0.5s;
+}
 .story{
     height: 60px;
     width: 165px;
@@ -87,6 +122,12 @@ header a{
     align-items: center;
     border: 1px solid #00ff41;
     color:white;
+}
+.story:hover{
+    background-color: #ff00ff;
+    transition-duration:0.5s;
+    border: 1px solid #ff00ff;
+    color: black;
 }
 .options{
     display: flex;
@@ -126,7 +167,32 @@ header a{
     height:320px;
     width:240px;
 }
-.symbol{
+.semicard:hover{
+    border: 3px solid white;
+    border-radius: 15px;
+    padding:20px;
+}
+.semicard:hover .symbol{
+    transform:translateX(7rem);
+    transition-duration: 0.5s;
+}
+.semicard:hover .dress{
+    color: #ff00ff;
+    transition-duration: 0.5s;
+}
+.semicard:hover .motive{
+    font-size: 1.5rem;
+}
+.semicard:hover .link{
+    color: #ff00ff;
+    transition-duration: 0.5s;
+}
+.semicard:hover .link i{
+    color: #ff00ff;
+    margin-left: 10px;
+    transition-duration: 0.5s;
+}
+.semicard:hover .symbol{
     font-size:2rem; 
     display: flex;
     justify-content: flex-start;
@@ -173,6 +239,10 @@ p{
 .place{
     margin-bottom: 60px;
 }
+.subfoot a:hover{
+    color: #00ff41;
+}
+
 footer{
     display:flex;
     justify-content: center;
