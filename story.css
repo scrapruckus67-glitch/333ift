@@ -1,0 +1,12 @@
+body{
+    width: 100%;
+    height:100%;
+    background-color: black;
+}
+header h1{
+    height:30%;
+    width: 100%;
+    background-image:url();
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+}
